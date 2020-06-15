@@ -12,12 +12,11 @@ import cv2
 import pyautogui
 from PIL import ImageGrab
 
-#enock--------------
+#enocks multiprocessing suggestions--------------
 import multiprocessing
 from multiprocessing import Pipe
 import time
 import cv2
-# import mss
 import os
 import sys
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
@@ -25,6 +24,7 @@ from distutils.version import StrictVersion
 from collections import defaultdict
 from io import StringIO
 
+# import mss
 # # Load mss library as sct
 # sct = mss.mss()
 # # Set monitor size to capture to MSS
@@ -33,15 +33,6 @@ from io import StringIO
 # width, height = pyautogui.size()
 # monitor = {"top": 0, "left": 0, "width": width, "height": height}
             #x     0       Y    0
-
-
-
-
-
-
-
-
-
 #------------------------------
 def decode_predictions(scores, geometry):
 	# grab the number of rows and columns from the scores volume, then
