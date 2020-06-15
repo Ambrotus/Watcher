@@ -1,7 +1,7 @@
 # Watcher
 Watcher is a work in progress intended to click a button that may show up on the desktop screen. 
 The button would be found via the text in the button that appears.
-This would be used to accept matches that apear in video games, and then moved on to other practical uses.
+This would be used to accept matches that appear in video games, and then moved on to other practical uses.
 
 Here are the tutorials Watcher is created from:
 https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
